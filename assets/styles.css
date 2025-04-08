@@ -41,3 +41,10 @@ footer {
     margin-top: 40px;
     font-size: 0.9rem;
 }
+/* Estilo del logo en el encabezado */
+header img {
+  max-width: 220px;
+  height: auto;
+  margin: 20px 0;
+  display: block;
+}
