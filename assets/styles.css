@@ -44,3 +44,45 @@ footer {
     margin-top: 40px;
     font-size: 0.9rem;
 }
+.servicios {
+  padding: 60px 20px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.servicios h2 {
+  font-size: 2.5rem;
+  color: #003f88;
+  margin-bottom: 40px;
+}
+
+.servicio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.servicio-card {
+  background-color: #f0f4fa;
+  border-radius: 12px;
+  padding: 30px 20px;
+  box-shadow: 0 4px 12px rgba(0, 63, 136, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.servicio-card:hover {
+  transform: translateY(-5px);
+}
+
+.servicio-card h3 {
+  font-size: 1.5rem;
+  color: #1d2d50;
+  margin-bottom: 15px;
+}
+
+.servicio-card p {
+  font-size: 1rem;
+  color: #333;
+}
